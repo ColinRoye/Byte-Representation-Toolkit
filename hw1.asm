@@ -135,6 +135,79 @@ part_1:
 
   part_2:
 
+    lw $t0, addr_arg0
+    lbu $t0,  0($t0)# arg
+    li $t1, 0x32
+    bne $t0, $t1, part_3
+
+    lw $t1, addr_arg1 # string 1's and 0's
+
+    li $t2, 0 #iterator
+    li $t3, 0 #sum
+    li $t4, 1 #2^n
+    li $t5, 2 #const
+    loop_p2:
+      #t6 is current char
+      addu $t6, $t2, $t1
+      lbu $t6, 0($t6)
+
+      li $t7, 0
+      beq $t6, $t7, loop_end
+
+      #30 = 0
+      #31 = 1
+      li $t0, 0x30
+      beq $t6, $t0, is_0
+
+      li $t0, 0x31
+      beq $t6, $t0, is_1
+
+      is_0:
+        li $t0, 0
+      b continue
+      is_1:
+        li $t0, 1
+      continue:
+
+      mul $t0, $t0, $t4
+      addu $t3, $t0, $t3
+
+      mul $t4, $t4, $t5 #multiply by 2
+      addiu $t2, $t2, 1 #add to iterator
+      b loop_p2
+
+    loop_end:
+      li $v0, 1
+      move  $a0, $t3
+      syscall
+
+
+
+
+
+
+
+  part_3:
+
+    lw $t0, addr_arg0
+    lbu $t0,  0($t0)# arg
+    li $t1, 0x46
+    bne $t0, $t1, part_4
+
+    lw $t1, addr_arg1
+
+
+  part_4:
+
+    lw $t0, addr_arg0
+    lbu $t0,  0($t0)# arg
+    li $t1, 0x43
+    bne $t0, $t1, exit
+
+    lw $t1, addr_arg1
+    lw $t2, addr_arg2
+    lw $t3, addr_arg3
+
 
 
 
