@@ -1,6 +1,6 @@
-# type your first and last name here
-# type your Net ID here (e.g., jmsmith)
-# type your SBU ID # here (e.g., 111234567)
+# Colin Roye
+# croye
+# 110378271
 
 .data
 # Command-line arguments
@@ -58,11 +58,65 @@ zero_args:
     syscall
     j exit
     # End: save command-line arguments to main memory
-    
+
 start_coding_here:
-    # Start the assignment by writing your code here
-    
-    
+
+part_1:
+  a:
+
+    lw $t1, addr_arg0
+    lbu $t2,  1($t1)# null terminator
+    lbu $t1,  0($t1)# arg
+
+    li $t0, 0
+    bne $t2, $t0, args_err
+
+    li $t0, 0x32
+    beq $t1, $t0, b
+    li $t0, 0x46
+    beq $t1, $t0, b
+    li $t0, 0x43
+    beq $t1, $t0, b
+
+    args_err:
+    li $v0, 4
+    la $a0, invalid_operation_error
+    syscall
+    li $v0, 10
+    syscall
+
+  b:
+
+  c:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 exit:
     li $v0, 10   # terminate program
