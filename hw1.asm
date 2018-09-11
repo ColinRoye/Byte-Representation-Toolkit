@@ -113,6 +113,30 @@ part_1:
 
   c:
 
+    lw $t0, addr_arg0
+    lbu $t0,  0($t0)# arg
+
+    li $t1, 0x43
+
+    bne $t1, $t0, part_2
+
+    lw $t1, num_args
+    #lbu $t1,  0($t1)
+
+    li $t2, 4
+
+    beq $t1, $t2, part_2
+
+    li $v0, 4
+    la $a0, invalid_args_error
+    syscall
+    li $v0, 10
+    syscall
+
+  part_2:
+
+
+
 
 
 
