@@ -87,6 +87,30 @@ part_1:
 
   b:
 
+    lw $t0, addr_arg0
+    lbu $t0,  0($t0)# arg
+
+    li $t1, 0x32
+    beq $t1, $t0, check_num
+    li $t1, 0x46
+    beq $t1, $t0, check_num
+
+    b c
+
+    check_num:
+    lw $t1, num_args
+    #lbu $t1,  0($t1)
+
+    li $t2, 2
+
+    beq $t1, $t2, c
+
+    li $v0, 4
+    la $a0, invalid_args_error
+    syscall
+    li $v0, 10
+    syscall
+
   c:
 
 
