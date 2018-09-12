@@ -69,7 +69,7 @@ part_1:
     lbu $t1,  0($t1)# arg
 
     li $t0, 0
-    bne $t2, $t0, args_err
+    bne $t2, $t0, invalid_operation_error_call
 
     li $t0, 0x32
     beq $t1, $t0, b
@@ -78,12 +78,7 @@ part_1:
     li $t0, 0x43
     beq $t1, $t0, b
 
-    args_err:
-    li $v0, 4
-    la $a0, invalid_operation_error
-    syscall
-    li $v0, 10
-    syscall
+    b invalid_operation_error_call
 
   b:
 
@@ -104,12 +99,7 @@ part_1:
     li $t2, 2
 
     beq $t1, $t2, c
-
-    li $v0, 4
-    la $a0, invalid_args_error
-    syscall
-    li $v0, 10
-    syscall
+    b invalid_args_error_call
 
   c:
 
@@ -126,12 +116,8 @@ part_1:
     li $t2, 4
 
     beq $t1, $t2, part_2
+    b invalid_args_error_call
 
-    li $v0, 4
-    la $a0, invalid_args_error
-    syscall
-    li $v0, 10
-    syscall
 
   part_2:
 
@@ -155,24 +141,25 @@ part_1:
       li $t7, 0
       beq $t6, $t7, loop_end
 
+      li $t7, 32
+      bge $t2, $t7, invalid_args_error_call
       #30 = 0
       #31 = 1
+      li $t9, 0 #is valid char flag
       li $t0, 0x30
       beq $t6, $t0, is_0
-
       li $t0, 0x31
       beq $t6, $t0, is_1
-
-
-
-
+      b continue
       is_0:
+        li $t9, 1 #is valid char flag
         li $t0, 0
       b continue
       is_1:
+        li $t9, 1 #is valid char flag
         li $t0, 1
       continue:
-
+      beqz $t9, invalid_args_error_call
 
 
 
@@ -220,10 +207,6 @@ part_1:
 
 
 
-
-
-
-
   part_3:
 
     lw $t0, addr_arg0
@@ -248,34 +231,20 @@ part_1:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 exit:
     li $v0, 10   # terminate program
+    syscall
+
+invalid_args_error_call:
+    li $v0, 4
+    la $a0, invalid_args_error
+    syscall
+    li $v0, 10
+    syscall
+
+invalid_operation_error_call:
+    li $v0, 4
+    la $a0, invalid_operation_error
+    syscall
+    li $v0, 10
     syscall
