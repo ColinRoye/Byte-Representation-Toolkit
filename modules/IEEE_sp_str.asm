@@ -30,7 +30,7 @@ IEEE_sp_str:
 
     loop_frac_IEEE_sp_str:
     bge $t0, $t1 loop_frac_IEEE_sp_str_over
-    andi $t4, $t3, 0x800000000
+    andi $t4, $t3, 0x80000000
 
     beqz $t4, print_zero
     print_one:
