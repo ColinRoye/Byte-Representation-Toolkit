@@ -48,6 +48,17 @@ IEEE_sp_str:
     b loop_frac_IEEE_sp_str
 
     loop_frac_IEEE_sp_str_over:
+
+    sll $t9, $t9, 1
+    srl $t9, $t9, 24
+    addiu $t9, $t9, -0x7F
+    move $a0, $t9
+    li $v0, 1
+    syscall
+
+
+
+
     #
     #
     # srl $t1, $a0, 23
