@@ -146,13 +146,6 @@ part_1:
     move $a0, $v0
     jal IEEE_sp_str
 
-    li $v0, 34
-    #syscall
-
-
-
-
-
   part_4:
 
     lw $t0, addr_arg0
@@ -184,6 +177,7 @@ invalid_operation_error_call:
     syscall
     li $v0, 10
     syscall
+
 
 
 .include "./modules/strToHex.asm"

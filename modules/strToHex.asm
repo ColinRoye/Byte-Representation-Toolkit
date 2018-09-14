@@ -43,6 +43,15 @@ strToHex:
       b loop_strToHex
 
       return_strToHex:
+
+            addu $t3, $a0, $t0
+            addiu $t3, $t3, -1
+            lbu $t3, 1($t3)
+            beqz $t3, skip_sth
+            b invalid_args_error_call
+            skip_sth:
+
+
       move $v0, $t1
 
     jr $ra
