@@ -157,7 +157,7 @@ part_1:
     lw $t2, addr_arg2
     lw $t3, addr_arg3
 
-
+    jal base_converter
 
 
 exit:
@@ -183,3 +183,4 @@ invalid_operation_error_call:
 .include "./modules/strToHex.asm"
 .include "./modules/strToTwosComp.asm"
 .include "./modules/IEEE_sp_str.asm"
+.include "./modules/base_converter.asm"

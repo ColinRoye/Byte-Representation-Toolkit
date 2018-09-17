@@ -44,7 +44,7 @@ strToHex:
 
       return_strToHex:
 
-      error_check_sth
+      
       addu $t3, $a0, $t0
       addiu $t3, $t3, -1
       lbu $t3, 1($t3)
