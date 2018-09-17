@@ -44,15 +44,19 @@ base_converter:
 
     dec_to_base:
     li $t1, 0
+    li $t3, 0
+    li $t4, 4
     loop_dtb_bc:
     beqz $a0 continue_dtb
-    sll $t1, $t1, 4
     #all of the numbers are correct, fix the combining them
     div $a0, $a2
     mflo $a0
     mfhi $t0
-    addu $t1, $t1, $t0
 
+    sllv $t0, $t0, $t3
+    addu $t3, $t4, $t3
+
+    addu $t1, $t1, $t0
     b loop_dtb_bc
     continue_dtb:
     jr $ra
