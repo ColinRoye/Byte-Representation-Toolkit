@@ -153,9 +153,31 @@ part_1:
     li $t1, 0x43
     bne $t0, $t1, exit
 
-    lw $t1, addr_arg1
-    lw $t2, addr_arg2
-    lw $t3, addr_arg3
+    lw $a0, addr_arg1
+    lw $a1, addr_arg2
+    lw $a2, addr_arg3
+
+    move $t0, $a0
+    move $t2, $a2
+
+    move $a0, $a1
+    li $v0, 84
+    syscall
+    move $t1, $v0
+
+    move $a0, $t2
+    li $v0, 84
+    syscall
+    move $t2, $v0
+
+
+    # $a0 number in a base
+    # $a1 base we are converting from
+    # $a2 base we are converting to
+    move $a0, $t0
+    move $a1, $t1
+    move $a2, $t2
+
 
     jal base_converter
 
