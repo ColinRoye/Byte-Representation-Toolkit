@@ -33,6 +33,7 @@ base_converter:
     jal dec_to_base
     lw $ra, 0($sp)
     addiu $sp, $sp, 4
+    jr $ra
 
 
     return_bc:
@@ -40,21 +41,54 @@ base_converter:
 
     #print value
 
-    jr $ra
 
     dec_to_base:
     li $t1, 0
+    li $t5, 0
+    beqz $a0, print_zero_dtb
+
+    move $t3, $a0
+
     loop_dtb_bc:
-    beqz $a0 continue_dtb
-    sll $t1, $t1, 4
-    #all of the numbers are correct, fix the combining them
-    div $a0, $a2
-    mflo $a0
+    beqz $t3 continue_dtb
+
+    #sll $t1, $t1, 4
+    #format output for part 4
+    div $t3, $a2
+    mflo $t3
     mfhi $t0
+
+
+    addiu $sp, $sp -1
+    sb $t0, 0($sp)
+
+    addiu $t5, $t5, 1
     addu $t1, $t1, $t0
+
+
 
     b loop_dtb_bc
     continue_dtb:
+
+    li $v0, 1
+    print_loop_dtb:
+    beqz $t5, finish__dtb
+
+    lbu $a0, 0($sp)
+    addiu $sp, $sp 1
+
+    syscall
+    beqz $t5, finish__dtb
+
+    addiu $t5, $t5, -1
+    b print_loop_dtb
+    finish__dtb:
+    jr $ra
+
+    print_zero_dtb:
+    li $v0, 1
+    li $a0, 0
+    syscall
     jr $ra
 
 
@@ -90,6 +124,7 @@ base_converter:
     lw $t3, 12($sp)
     lw $t4, 16($sp)
     lw $ra, 20($sp)
+    addiu $sp, $sp, 24
 
     beqz $t0, skip_mult_bc_tn
     mul $t3, $t3, $t6
