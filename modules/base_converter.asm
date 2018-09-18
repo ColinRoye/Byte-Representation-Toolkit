@@ -13,13 +13,16 @@ base_converter:
 
 ###save to base
 
-    addiu $sp, $sp, -8
+    addiu $sp, $sp, -12
     sw $ra, 0($sp)
     sw $a2, 4($sp)
+    sw $a1, 8($sp)
+
     jal to_decimal
     lw $ra, 0($sp)
     lw $a1, 4($sp) #move the to base to the second arg in the next func
-    addiu $sp, $sp, 8
+    sw $a2, 8($sp) #swaped
+    addiu $sp, $sp, 12
 
 
 
@@ -77,6 +80,7 @@ base_converter:
     lbu $a0, 0($sp)
     addiu $sp, $sp 1
 
+
     syscall
     beqz $t5, finish__dtb
 
@@ -125,6 +129,9 @@ base_converter:
     lw $t4, 16($sp)
     lw $ra, 20($sp)
     addiu $sp, $sp, 24
+
+    bge $v0, $a1, invalid_args_error_call
+
 
     beqz $t0, skip_mult_bc_tn
     mul $t3, $t3, $t6
