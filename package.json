@@ -1,0 +1,25 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Testing tools",
+  "main": "./tests/test.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinRoye/CSE_220-HW1.git"
+  },
+  "author": "Colin Roye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinRoye/CSE_220-HW1/issues"
+  },
+  "homepage": "https://github.com/ColinRoye/CSE_220-HW1#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}

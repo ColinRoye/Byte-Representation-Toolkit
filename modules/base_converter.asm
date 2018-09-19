@@ -17,13 +17,14 @@ base_converter:
     sw $ra, 0($sp)
     sw $a2, 4($sp)
     sw $a1, 8($sp)
-
     jal to_decimal
     lw $ra, 0($sp)
     lw $a1, 4($sp) #move the to base to the second arg in the next func
     sw $a2, 8($sp) #swaped
     addiu $sp, $sp, 12
 
+    li $t0, 0x7FFFFFFF
+    bgt $v0, $t0, invalid_args_error_call
 
 
 
