@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df961c13-1bf3-42c2-a05c-c1bada482156" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fall18Mars.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/input/p1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/input/p2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/input/p3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/input/p4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modules/p1_tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modules/p2_tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modules/p3_tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modules/p4_tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1.asm" beforeDir="false" afterPath="$PROJECT_DIR$/hw1.asm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/base_converter.asm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_converter.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/input/p2" beforeDir="false" afterPath="$PROJECT_DIR$/tests/input/p2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/modules/p2_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/p2_tests.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="p1_tests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/modules/p1_tests.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,15 +32,19 @@
       <file leaf-file-name="p2_tests.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/modules/p2_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="238">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="p2" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/input/p2">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2365">
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -65,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ls</find>
+      <find>fork</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,12 +185,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537368557391</updated>
-      <workItem from="1537368559925" duration="8987000" />
+      <workItem from="1537368559925" duration="9341000" />
+      <workItem from="1537378254756" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8987000" />
+    <option name="totallyTimeSpent" value="13029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="955" width="1936" height="1056" extended-state="6" />
@@ -203,39 +199,39 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -246,9 +242,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desktop.ini">
+    <entry file="file://$PROJECT_DIR$/tests/modules/p1_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/p2_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/input/p2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid23740.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/desktop.ini" />
     <entry file="file://$PROJECT_DIR$/tests/modules/p4_tests.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -281,13 +299,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/input/p2">
+    <entry file="file://$PROJECT_DIR$/hw1.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replay_pid23740.log">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/input/p2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2365">
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/modules/p2_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
