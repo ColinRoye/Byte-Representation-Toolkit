@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ColinRoye/CSE_220-HW1#readme",
   "dependencies": {
+    "base-conversion": "^3.3.0",
     "child_process": "^1.0.2",
     "threads.js": "^0.6.1"
   }
