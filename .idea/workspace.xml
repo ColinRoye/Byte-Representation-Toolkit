@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df961c13-1bf3-42c2-a05c-c1bada482156" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/modules/expected_p2.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/modules/expected_p4.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p4.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expected_p2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expected_p2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="17">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -42,17 +42,17 @@
       <file leaf-file-name="expected_p3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/modules/expected_p3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="561">
               <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expected_p4.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="expected_p4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/modules/expected_p4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -163,10 +163,10 @@
         <option value="$PROJECT_DIR$/tests/generateInput.js" />
         <option value="$PROJECT_DIR$/tests/modules/test.html" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p1.js" />
-        <option value="$PROJECT_DIR$/tests/modules/expected_p4.js" />
         <option value="$PROJECT_DIR$/tests/modules/ieee.js" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p3.js" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p2.js" />
+        <option value="$PROJECT_DIR$/tests/modules/expected_p4.js" />
       </list>
     </option>
   </component>
@@ -276,12 +276,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537368557391</updated>
       <workItem from="1537368559925" duration="9341000" />
-      <workItem from="1537378254756" duration="24886000" />
+      <workItem from="1537378254756" duration="28324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34227000" />
+    <option name="totallyTimeSpent" value="37665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -450,10 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p4.js">
+    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -466,15 +466,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/modules/expected_p3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="561">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
+    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
