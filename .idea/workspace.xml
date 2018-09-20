@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/tests/modules/expected_p2.js" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/tests/modules/expected_p2.js" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/tests/modules/expected_p2.js" line="30" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df961c13-1bf3-42c2-a05c-c1bada482156" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/generateInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/modules/ieee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/child.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/input/p1" beforeDir="false" afterPath="$PROJECT_DIR$/tests/input/p1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/input/p2" beforeDir="false" afterPath="$PROJECT_DIR$/tests/input/p2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/modules/p1_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/modules/p2_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/modules/p3_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/modules/p4_tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/output/p2" beforeDir="false" afterPath="$PROJECT_DIR$/tests/output/p2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testArgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testArgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/modules/expected_p2.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/expected_p2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,19 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expected_p2.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="expected_p2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expected_p3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expected_p3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/modules/expected_p3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="525">
               <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
@@ -171,10 +163,10 @@
         <option value="$PROJECT_DIR$/tests/generateInput.js" />
         <option value="$PROJECT_DIR$/tests/modules/test.html" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p1.js" />
-        <option value="$PROJECT_DIR$/tests/modules/expected_p2.js" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p4.js" />
         <option value="$PROJECT_DIR$/tests/modules/ieee.js" />
         <option value="$PROJECT_DIR$/tests/modules/expected_p3.js" />
+        <option value="$PROJECT_DIR$/tests/modules/expected_p2.js" />
       </list>
     </option>
   </component>
@@ -284,12 +276,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537368557391</updated>
       <workItem from="1537368559925" duration="9341000" />
-      <workItem from="1537378254756" duration="21711000" />
+      <workItem from="1537378254756" duration="24886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31052000" />
+    <option name="totallyTimeSpent" value="34227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -427,27 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/modules/ieee.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -479,10 +450,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/modules/expected_p3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="525">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/expected_p2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
         </state>
       </provider>
     </entry>
