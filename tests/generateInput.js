@@ -3,10 +3,31 @@ const invalid_args = 'INVALID_ARGS'
 
 
 function partOneInput(){
+    //done
 
 }
+function partTwoInput(a1){
+    //generate 1000 bit strings with between 0 and 36 bits
 
+    //test with digits other than 1 or zero for each place (0 - 32)
+
+}
 function partThreeInput(a1,a2,a3){
+    //generate 1000 Hex strings with between with 8 digits
+
+    //hexString = yourNumber.toString(16);
+    //parseInt(hexString, 16);
+
+    //check all special values
+
+    //check special range
+
+    //check less then
+
+}
+function partFourInput(){
+    //generate 1000 ok base conv
+
 
     //
     // // < 33 bits pos
@@ -56,9 +77,6 @@ function partThreeInput(a1,a2,a3){
     //     let base1 = 2;
     //
     // }
-}
-function partFourInput(){
-
 }
 
 
